@@ -7,8 +7,9 @@ Add this to your Stack page to use PHP if and else if statements without the has
 
 ## Screenshots
 
-Default template stack for IF statement
+Default template stack for IF statement:
 ![Screenshot](Assets/screenshota.png)
+===========
 
 Example of user log in Error or Success
 ![Screenshot](Assets/screenshotb.png)

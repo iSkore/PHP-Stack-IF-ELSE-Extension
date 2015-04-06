@@ -36,7 +36,7 @@ Collapse the stack to keep your pages organized and clean.
 
 ## License
 
-PHP Stack is released under the MIT License:
+PHP Stack IF ELSE Extension is released under the MIT License:
 
 The MIT License (MIT)
 

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.skoredev.stacks.phpStackIFELSE</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.1</string>
+	<key>title</key>
+	<string>Code PHP IF ELSE</string>
+	<key>subtitle</key>
+	<string>Code in PHP IF ELSE Extension</string>
+	<key>group</key>
+	<string>Skore Tech</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>falseValue</key>
+			<string></string>
+			<key>id</key>
+			<string>collapse</string>
+			<key>title</key>
+			<string>Collapse IF Stack</string>
+			<key>trueValue</key>
+			<string>#%id% .col{ display: none; }#%id% .headIf{ color:#FFF;background-color: #c00; }</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>1 == 1</string>
+			<key>id</key>
+			<string>phpCode_If</string>
+			<key>title</key>
+			<string>IF</string>
+			<key>toolTip</key>
+			<string>Put your PHP IF statement here</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>falseValue</key>
+			<string>false</string>
+			<key>trueValue</key>
+			<string>true</string>
+			<key>id</key>
+			<string>else1Bool</string>
+			<key>title</key>
+			<string>Else If 1 Enabled</string>
+			<key>toolTip</key>
+			<string>Else If 1 Enabled</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>1 == 1</string>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>else1Bool</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>id</key>
+			<string>phpCode_Else_1</string>
+			<key>title</key>
+			<string>ELSE IF 1</string>
+			<key>toolTip</key>
+			<string>Put your PHP ELSE IF statement here</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>else1Bool</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>falseValue</key>
+			<string>false</string>
+			<key>trueValue</key>
+			<string>true</string>
+			<key>id</key>
+			<string>else2Bool</string>
+			<key>title</key>
+			<string>Else If 2 Enabled</string>
+			<key>toolTip</key>
+			<string>Else If 2 Enabled</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>1 == 1</string>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>else2Bool</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>id</key>
+			<string>phpCode_Else_2</string>
+			<key>title</key>
+			<string>ELSE IF 2</string>
+			<key>toolTip</key>
+			<string>Put your PHP ELSE IF statement here</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>else2Bool</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>falseValue</key>
+			<string>false</string>
+			<key>trueValue</key>
+			<string>true</string>
+			<key>id</key>
+			<string>else3Bool</string>
+			<key>title</key>
+			<string>Else If 3 Enabled</string>
+			<key>toolTip</key>
+			<string>Else If 3 Enabled</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>1 == 1</string>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>else3Bool</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>id</key>
+			<string>phpCode_Else_3</string>
+			<key>title</key>
+			<string>ELSE IF 3</string>
+			<key>toolTip</key>
+			<string>Put your PHP ELSE IF statement here</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>else3Bool</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>falseValue</key>
+			<string>false</string>
+			<key>trueValue</key>
+			<string>true</string>
+			<key>id</key>
+			<string>else4Bool</string>
+			<key>title</key>
+			<string>Else If 4 Enabled</string>
+			<key>toolTip</key>
+			<string>Else If 4 Enabled</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>1 == 1</string>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>else4Bool</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>id</key>
+			<string>phpCode_Else_4</string>
+			<key>title</key>
+			<string>ELSE IF 4</string>
+			<key>toolTip</key>
+			<string>Put your PHP ELSE IF statement here</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>else4Bool</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>falseValue</key>
+			<string>false</string>
+			<key>trueValue</key>
+			<string>true</string>
+			<key>id</key>
+			<string>else5Bool</string>
+			<key>title</key>
+			<string>Else If 5 Enabled</string>
+			<key>toolTip</key>
+			<string>Else If 5 Enabled</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>1 == 1</string>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>else5Bool</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>id</key>
+			<string>phpCode_Else_5</string>
+			<key>title</key>
+			<string>ELSE IF 5</string>
+			<key>toolTip</key>
+			<string>Put your PHP ELSE IF statement here</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+	</array>
+	<key>icon</key>
+	<string>icon</string>
+	<key>type</key>
+	<string>stack</string>
+	<key>requiresPhp</key>
+	<true/>
+	<key>requiresPhpBuffer</key>
+	<true/>
+	<key>templateFile</key>
+	<string>template.php</string>
+	<key>cssFile</key>
+	<string>style.css</string>
+	<key>tags</key>
+	<array>
+		<string>PHP</string>
+		<string>Code</string>
+		<string>Utility</string>
+		<string>Form</string>
+		<string>if else</string>
+		<string>YourHead Software</string>
+		<string>RapidWeaver</string>
+		<string>Rapid Weaver</string>
+		<string>Stacks</string>
+		<string>iSkore</string>
+		<string>iSkore Development Inc.</string>
+	</array>
+</dict>
+</plist>
